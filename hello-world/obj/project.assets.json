@@ -1657,19 +1657,19 @@
     ]
   },
   "packageFolders": {
-    "/home/ivan/.nuget/packages/": {}
+    "C:\\Users\\IvanSuperLaptop\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ivan/exercism/csharp/hello-world/HelloWorld.csproj",
+      "projectUniqueName": "C:\\Informatik_CompSci\\Programming\\csharp\\csharp\\hello-world\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "/home/ivan/exercism/csharp/hello-world/HelloWorld.csproj",
-      "packagesPath": "/home/ivan/.nuget/packages/",
-      "outputPath": "/home/ivan/exercism/csharp/hello-world/obj/",
+      "projectPath": "C:\\Informatik_CompSci\\Programming\\csharp\\csharp\\hello-world\\HelloWorld.csproj",
+      "packagesPath": "C:\\Users\\IvanSuperLaptop\\.nuget\\packages\\",
+      "outputPath": "C:\\Informatik_CompSci\\Programming\\csharp\\csharp\\hello-world\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ivan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\IvanSuperLaptop\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -1696,7 +1696,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -1735,7 +1735,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/var/snap/dotnet/common/dotnet/sdk/10.0.107/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
