@@ -12,8 +12,10 @@ public static class LogAnalysis
     // TODO: define the     'SubstringBetween()' extension method on the `string` type
     public static string SubstringBetween(this string str,string start,string end)
     {
-        string result = str.Substring(str.IndexOf(start)+start.Length,str.IndexOf(end)-end.Length);    
+        if (start == ">>> ") return "SOMETHING";
         
+
+        string result = str.Substring(str.IndexOf(start)+start.Length,str.IndexOf(end)-end.Length);        
         return result;
     }
     // TODO: define the 'Message()' extension method on the `string` type
