@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RotationalCipher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cb6851105685a2bc176180b95c0fc6d3449bcaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac549eb0fcce203335ed07f7310f3a1f980c2622")]
 [assembly: System.Reflection.AssemblyProductAttribute("RotationalCipher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RotationalCipher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

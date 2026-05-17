@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Camicia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5efa236c40d5dcf5d33d0df1378ab77796985285")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac549eb0fcce203335ed07f7310f3a1f980c2622")]
 [assembly: System.Reflection.AssemblyProductAttribute("Camicia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Camicia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
