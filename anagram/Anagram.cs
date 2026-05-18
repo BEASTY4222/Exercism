@@ -10,15 +10,16 @@ public class Anagram
 
     public string[] FindAnagrams(string[] potentialMatches)
     {
-        mainAnagram.ToLower();
+        mainAnagram = mainAnagram.ToLower();
         int mainAnagramLength = mainAnagram.Length;
         List<string> result = new List<string>();
 
         for (int i = 0;i < potentialMatches.Length;i++)
         {
-            if(mainAnagramLength != potentialMatches[i].Length) continue;
+            string copyWord = potentialMatches[i].ToLower();
+            if(mainAnagramLength != potentialMatches[i].Length || mainAnagram ==  copyWord) continue;
 
-            if (mainAnagram.OrderBy(c => c).SequenceEqual(potentialMatches[i].ToLower().OrderBy(c => c)))
+            if (mainAnagram.OrderBy(c => c).SequenceEqual(copyWord.OrderBy(c => c)))
                 result.Add(potentialMatches[i]);
         }
         
