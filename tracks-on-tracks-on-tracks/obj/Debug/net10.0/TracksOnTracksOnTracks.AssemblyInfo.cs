@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TracksOnTracksOnTracks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7664ea2919a902faf08408fc6d85838ad881fdff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7acba76a852110b2e46da8988a29d1a9341abe5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TracksOnTracksOnTracks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TracksOnTracksOnTracks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HyperOptimizedTelemetry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+563cb0e3e4e5c4db08e588d1ee9a7320dba227d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7acba76a852110b2e46da8988a29d1a9341abe5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("HyperOptimizedTelemetry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HyperOptimizedTelemetry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+2026-05-21T08:34:13.0175930+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.9.1+cb5afc3bb9bb01ebd75b57f89e8358b914ee2a49
+2026-05-21T08:34:13.0281903+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-05-21T08:34:13.0294304+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-05-21T08:34:13.0294382+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 08:34:12.987
+2026-05-21T08:34:13.0295314+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 8741
+2026-05-21T08:34:13.0295909+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: ubuntu.25.10-x64 - .NET 10.0.7
+2026-05-21T08:34:13.0296085+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: /usr/lib/dotnet/shared/Microsoft.NETCore.App/10.0.7/System.Private.CoreLib.dll
+2026-05-21T08:34:13.0296395+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-05-21T08:34:13.0297195+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: /home/ivan/exercism/csharp/robot-name/bin/Debug/net10.0/RobotName.dll
+2026-05-21T08:34:13.0298640+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory /home/ivan/exercism/csharp/robot-name/bin/Debug/net10.0/Log --client-port 38571'
+2026-05-21T08:34:13.0332305+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-05-21T08:34:13.0561634+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-05-21T08:34:13.0736165+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-05-21T08:34:13.6281882+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.2.2' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2026-05-21T08:34:13.6570847+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.2.2+728c1dce01 (64-bit .NET 10.0.7)

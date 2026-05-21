@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Informatik_CompSci\\Programming\\csharp\\csharp\\jedliks-toys\\JedliksToys.csproj": {}
+    "/home/ivan/exercism/csharp/jedliks-toys/JedliksToys.csproj": {}
   },
   "projects": {
-    "C:\\Informatik_CompSci\\Programming\\csharp\\csharp\\jedliks-toys\\JedliksToys.csproj": {
+    "/home/ivan/exercism/csharp/jedliks-toys/JedliksToys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Informatik_CompSci\\Programming\\csharp\\csharp\\jedliks-toys\\JedliksToys.csproj",
+        "projectUniqueName": "/home/ivan/exercism/csharp/jedliks-toys/JedliksToys.csproj",
         "projectName": "JedliksToys",
-        "projectPath": "C:\\Informatik_CompSci\\Programming\\csharp\\csharp\\jedliks-toys\\JedliksToys.csproj",
-        "packagesPath": "C:\\Users\\IvanSuperLaptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Informatik_CompSci\\Programming\\csharp\\csharp\\jedliks-toys\\obj\\",
+        "projectPath": "/home/ivan/exercism/csharp/jedliks-toys/JedliksToys.csproj",
+        "packagesPath": "/home/ivan/.nuget/packages/",
+        "outputPath": "/home/ivan/exercism/csharp/jedliks-toys/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IvanSuperLaptop\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/ivan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -80,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.107/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

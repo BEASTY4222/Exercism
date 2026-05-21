@@ -1,63 +1,90 @@
-using System.Collections;
-using System.Data.SqlTypes;
-
 public static class TelemetryBuffer
 {
     public static byte[] ToBuffer(long reading)
     {
-        int prefix = 0;
-        byte[] payload = new byte[9];
+        byte[] result = new byte[9];
+        byte[] payload;
+        byte prefix;
 
-        if(reading >= 0){
-            // Unsinghed nums
-            if (reading >= 0 && reading <= ushort.MaxValue)
+        if (reading >= 0)
+        {
+            if (reading <= ushort.MaxValue)
             {
                 payload = BitConverter.GetBytes((ushort)reading);
                 prefix = 2;
             }
-            else if (reading >= 0 && reading <= uint.MaxValue)
+            else if (reading <= int.MaxValue)
+            {
+                payload = BitConverter.GetBytes((int)reading);
+                prefix = 252; // 256 - 4
+            }
+            else if (reading <= uint.MaxValue)
             {
                 payload = BitConverter.GetBytes((uint)reading);
                 prefix = 4;
             }
             else
             {
-                payload = BitConverter.GetBytes((ulong)reading);
-                prefix = 8;
-
+                payload = BitConverter.GetBytes(reading);
+                prefix = 248; // 256 - 8
             }
-        }else{
-            // Singhed nums
-            if (reading >= short.MinValue && reading <= short.MaxValue)
+        }
+        else
+        {
+            if (reading >= short.MinValue)
             {
                 payload = BitConverter.GetBytes((short)reading);
-                prefix = 256 - 2;
+                prefix = 254; // 256 - 2
             }
-            else if (reading >= int.MinValue && reading <= int.MaxValue)
+            else if (reading >= int.MinValue)
             {
                 payload = BitConverter.GetBytes((int)reading);
-                prefix = 256 - 4;
+                prefix = 252; // 256 - 4
             }
             else
             {
-                payload = BitConverter.GetBytes((long)reading);
-                prefix = 256 - 8;
-
+                payload = BitConverter.GetBytes(reading);
+                prefix = 248; // 256 - 8
             }
         }
-        
-        LinkedList<byte> resultBytesList = new LinkedList<byte>(payload){};
 
-        resultBytesList.AddFirst((byte)prefix);
-        while(resultBytesList.Count < 9) resultBytesList.AddLast(0);
+        result[0] = prefix;
+        Array.Copy(payload, 0, result, 1, payload.Length);
 
-        
-
-        return resultBytesList.ToArray();
+        return result;
     }
 
     public static long FromBuffer(byte[] buffer)
     {
-        throw new NotImplementedException("Please implement the static TelemetryBuffer.FromBuffer() method");
+        byte prefix = buffer[0];
+
+        if (prefix == 2)
+        {
+            return BitConverter.ToUInt16(buffer, 1);
+        }
+
+        else if (prefix == 4)
+        {
+            return BitConverter.ToUInt32(buffer, 1);
+        }
+
+        else if (prefix == 254)
+        {
+            return BitConverter.ToInt16(buffer, 1);
+        }
+
+        else if (prefix == 252)
+        {
+            return BitConverter.ToInt32(buffer, 1);
+        }
+        else if(prefix != 2 && prefix != 4 && prefix != 254 && prefix != 252 && prefix != 8 && prefix != 248)
+        {
+            return 0;   
+        }
+
+        
+        
+
+        return BitConverter.ToInt64(buffer, 1);
     }
 }

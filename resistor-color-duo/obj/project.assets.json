@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {
       "Exercism.Tests.xunit.v3/0.1.0-beta1": {
@@ -1657,31 +1657,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER69\\.nuget\\packages\\": {}
+    "/home/ivan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IG\\IG 11B\\Informatik\\C#\\csharp\\resistor-color-duo\\ResistorColorDuo.csproj",
+      "projectUniqueName": "/home/ivan/exercism/csharp/resistor-color-duo/ResistorColorDuo.csproj",
       "projectName": "ResistorColorDuo",
-      "projectPath": "C:\\IG\\IG 11B\\Informatik\\C#\\csharp\\resistor-color-duo\\ResistorColorDuo.csproj",
-      "packagesPath": "C:\\Users\\USER69\\.nuget\\packages\\",
-      "outputPath": "C:\\IG\\IG 11B\\Informatik\\C#\\csharp\\resistor-color-duo\\obj\\",
+      "projectPath": "/home/ivan/exercism/csharp/resistor-color-duo/ResistorColorDuo.csproj",
+      "packagesPath": "/home/ivan/.nuget/packages/",
+      "outputPath": "/home/ivan/exercism/csharp/resistor-color-duo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USER69\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/ivan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -1699,11 +1697,10 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Exercism.Tests.xunit.v3": {
@@ -1739,7 +1736,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.107/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
